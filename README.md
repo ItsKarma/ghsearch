@@ -4,6 +4,28 @@ Command line tool to search GitHub.
 
 Search string is case insensitive.
 
+## Installation
+
+`git clone https://github.com/ItsKarma/ghsearch`
+
+You can run directly without building:
+
+`go run . <searchString> <flags>`
+
+If you build a binary, you can put it in your bin directory so you can use it anywhere:
+
+`go build .`
+
+Make sure `/usr/local/bin` is in your path.
+
+`mv ghsearch /usr/local/bin`
+
+*Tip:* Make sure `/usr/local/bin` is in your `$PATH`.
+
+Now you can use `ghsearch` from anywhere.
+
+`ghsearch <searchString> <flags>`
+
 ## Usage
 
 Requires user to set `GH_USER` and `GH_TOKEN` environment variables prior to use.
