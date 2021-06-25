@@ -1,8 +1,6 @@
 # GitHub Search
 
-Command line tool to search GitHub.
-
-Search string is case insensitive.
+Command line tool to search for text within a GitHub repo or organization.
 
 ## Installation
 
